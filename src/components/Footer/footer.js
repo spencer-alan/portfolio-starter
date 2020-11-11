@@ -3,7 +3,7 @@ import "./footer.css";
 
 function Footer() {
 	return (
-		<footer className="mastfoot mt-auto">
+		<footer className="mastfoot">
 			<div className="inner">
 			<p>Spencer Smith | 2020</p>
 				<div>
