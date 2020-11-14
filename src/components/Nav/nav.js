@@ -9,10 +9,31 @@ const Nav = ({ children }) => {
 				<div className="inner">
 					<h3 className="masthead-brand">Portfolio</h3>
 					<nav className="nav nav-masthead justify-content-center">
-						<Link to="/" className="nav-link active">Home</Link>
-						<Link to="/projects" className="nav-link">Projects</Link>
-						<Link to="/about" className="nav-link">About</Link>
-						<Link to="/contact" className="nav-link">Contact</Link>
+						<Link 
+							to="/" 
+							className={
+								window.location.pathname === "/" 
+								? "nav-link active" 
+								: "nav-link"}
+						>
+							Home
+						</Link>
+						<Link 
+							to="/projects"
+							className={window.location.pathname === "/projects" 
+							? "nav-link active" 
+							: "nav-link"}
+							>
+								Projects
+							</Link>
+						<Link 
+							to="/contact" 
+							className={window.location.pathname === "/contact" 
+							? "nav-link active" 
+							: "nav-link"}
+							>
+								Contact
+							</Link>
 					</nav>
 				</div>
 			</header>
