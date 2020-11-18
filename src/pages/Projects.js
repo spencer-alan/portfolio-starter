@@ -1,7 +1,7 @@
 import React from "react";
 import Jumbotron from "../components/Jumbotron/Jumbotron";
-import Nav from "../components/Nav/Nav";
-import Footer from "../components/Footer/Footer"
+import Nav from "../components/Nav/nav";
+import Footer from "../components/Footer/footer"
 import { Container, Row, Col } from "../components/Grid";
 import Card from "../components/Card/Card";
 

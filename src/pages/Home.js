@@ -1,7 +1,7 @@
 import React from "react";
-import Footer from "../components/Footer/Footer";
-import HomeInfo from "../components/Info/HomeInfo";
-import Nav from "../components/Nav/Nav";
+import Footer from "../components/Footer/footer";
+import HomeInfo from "../components/Info/homeInfo";
+import Nav from "../components/Nav/nav";
 
 function Home() {
 	return (
