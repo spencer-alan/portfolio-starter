@@ -1,0 +1,11 @@
+img {
+  max-height: 15rem;
+  max-width: 15rem;
+  float: left;
+  border-radius: 20px;
+}
+
+.contact {
+  color: aliceblue;
+  text-decoration: underline;
+}
